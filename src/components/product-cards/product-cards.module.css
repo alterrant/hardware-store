@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  justify-items: center;
+  gap: 20px;
+
+}
+
+.button {
+  box-shadow: none;
+}
+.button:hover {
+  background: linear-gradient(var(--darkGrey), rgba(49, 70, 90, .3));
+  color: var(--white);
+}
+.button:active {
+  background: var(--darkGrey);
+  color: var(--white);
+}

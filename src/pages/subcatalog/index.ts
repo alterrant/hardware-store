@@ -1,0 +1,1 @@
+export { SubcatalogPage } from './ui';

@@ -1,0 +1,25 @@
+.wrapper,
+.container,
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  max-width: 270px;
+  border-radius: 40px;
+  box-shadow: 0 4px 15px 0 rgba(12, 7, 50, 0.25);
+  overflow: hidden;
+}
+.container {
+  height: 100%;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+}
+.description {
+  row-gap: 20px;
+}
+.title {
+  font-weight: 600;
+  line-height: 125%;
+}

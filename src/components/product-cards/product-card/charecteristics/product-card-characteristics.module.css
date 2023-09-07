@@ -1,0 +1,16 @@
+.prop {
+  color: var(--darkGrey);
+}
+.value {
+  font-weight: 700;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.row {
+  display: flex;
+  column-gap: 4px;
+  font-family: 'PT Sans', sans-serif;
+}

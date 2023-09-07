@@ -1,0 +1,5 @@
+.activities:active,
+.activities:hover {
+  background: linear-gradient(var(--darkGrey), rgba(49, 70, 90, .3));
+  color: var(--white);
+}

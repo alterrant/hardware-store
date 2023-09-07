@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+}
+.registrationWrapper {
+  width: 100%;
+  max-width: 330px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  column-gap: 20px;
+}
+.registrationBtn {
+  width: 100%;
+  max-width: 270px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 360px) {
+  .wrapper {
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .registrationBtn {
+    font-size: 14px;
+  }
+}

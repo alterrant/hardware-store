@@ -1,0 +1,63 @@
+.base {
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  color:inherit;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+.base > p {
+  padding: 0 40px;
+}
+.ellipse {
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px 0 rgba(12, 7, 50, 0.25);
+}
+.greenBg {
+  background-color: var(--green);
+}
+.redBg {
+  background-color: var(--red);
+}
+.darkGreyBg {
+  background-color: var(--darkGrey);
+}
+.whiteBg {
+  background-color: var(--white);
+}
+.greenText {
+  border-color: var(--green);
+  color: var(--green);
+}
+.redText {
+  border-color: var(--red);
+  color: var(--red);
+}
+.darkGreyText {
+  border-color: var(--darkGrey);
+  color: var(--darkGrey);
+}
+.whiteText {
+  color: var(--white);
+}
+.greenText,
+.greenText,
+.redText,
+.redText,
+.darkGreyText,
+.darkGreyText {
+  border: 1px solid;
+}
+.greenText:hover,
+.greenText:active,
+.redText:hover,
+.redText:active,
+.darkGreyText:hover,
+.darkGreyText:active {
+  border:none;
+}
+.greenText:hover {
+  background: linear-gradient(var(--green), rgba(7, 133, 80, .3));
+  color: var(--lightGrey);
+}

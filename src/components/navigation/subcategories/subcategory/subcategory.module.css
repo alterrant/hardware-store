@@ -1,0 +1,8 @@
+.link {
+  padding: 8px 70px 8px 40px;
+  background-color: var(--white);
+}
+.activeLink {
+  background-color: var(--red);
+  color: var(--white);
+}

@@ -1,0 +1,1 @@
+export { CharacteristicsSection } from './ui';

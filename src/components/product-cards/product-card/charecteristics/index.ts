@@ -1,0 +1,1 @@
+export { ProductCardCharacteristics } from './ui';

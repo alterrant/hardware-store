@@ -1,0 +1,17 @@
+.item {
+  min-height: 26px;
+  min-width: 26px;
+  padding: 4px 7px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.active {
+  background: var(--lightGrey);
+  color: var(--red);
+}
+.breakLabel {
+  pointer-events: none;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  max-width: 1140px;
+  margin: 20px auto 120px auto;
+  display: flex;
+  column-gap: 20px;
+}
+.wrapper > *:first-child {
+  flex-shrink: 0;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper > *:first-child {
+    /* overflow-y: scroll; */
+    position: absolute;
+    left:0;
+  }
+}
