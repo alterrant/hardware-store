@@ -1,6 +1,6 @@
-import { Button, ButtonColors, ButtonVariants } from 'components/button';
+import { Button, ButtonColors, ButtonVariants } from 'components/common/button';
 import { ADD_TO_CART, INITIAL_COUNT } from './configs';
-import { Counter, useCounter } from '../../counter';
+import { Counter, useCounter } from '../../common/counter';
 
 import styles from './product-actions.module.css';
 

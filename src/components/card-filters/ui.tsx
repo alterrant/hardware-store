@@ -1,6 +1,7 @@
-import { Button } from 'components/button';
+import { Button } from 'components/common/button';
+
 import { filterConfig, priseSortConfig } from './config';
-import { ReactComponent as ArrowDown } from './assets/arrow-down.svg';
+import { ReactComponent as ArrowDown } from '../common/assets/arrow-down.svg';
 
 import styles from './card-filters.module.css';
 

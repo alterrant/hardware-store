@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-import { Button } from 'components/button';
+import { Button } from 'components/common/button';
 import { getCountString } from './utils';
 import { DECREMENT, INCREMENT } from './config';
 

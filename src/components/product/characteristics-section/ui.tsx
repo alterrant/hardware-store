@@ -1,5 +1,5 @@
 import { ProductInfoLayout } from 'components/layouts/product-info';
-import { Button } from 'components/button';
+import { Button } from 'components/common/button';
 import { MAIN_CHARACTERISTICS, MORE_CHARACTERISTICS } from './config';
 import { ProductCharacteristics } from './characteristics';
 

@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 
 import styles from './pagination-controller.module.css';
-import { Button } from '../../button';
+import { Button } from '../../common/button';
 
 type TPaginationControllerProps = {
   imgSrc: string;
