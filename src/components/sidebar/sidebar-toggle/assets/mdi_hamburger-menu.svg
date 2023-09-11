@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="mdi:hamburger-menu" clip-path="url(#clip0_436_3387)">
+<circle id="Ellipse 11" cx="20" cy="20" r="20" fill="#B10207"/>
+<g id="Group 249">
+<rect id="Rectangle 102" x="10" y="10" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 103" x="17.8281" y="10" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 104" x="25.6523" y="10" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 105" x="10" y="17.8259" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 106" x="17.8281" y="17.8259" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 107" x="25.6523" y="17.8259" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 108" x="10" y="25.6522" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 109" x="17.8281" y="25.6523" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+<rect id="Rectangle 110" x="25.6523" y="25.6522" width="4.34783" height="4.34783" fill="#DEDFEA"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_436_3387">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

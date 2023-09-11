@@ -1,0 +1,22 @@
+.btn {
+  display: none;
+}
+.sidebarMenu {
+  position: fixed;
+  left: 0;
+  transition-delay: .2s;
+}
+.sidebarMenuVisible {
+  opacity: 1;
+}
+.sidebarMenuHidden {
+  transform: translateX(-100vw);
+  opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    display: inline-block;
+    width: max-content;
+  }
+}

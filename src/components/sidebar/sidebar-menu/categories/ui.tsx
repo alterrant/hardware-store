@@ -10,14 +10,16 @@ import styles from './categories.module.css';
 
 type TCategoriesProps = {
   categories: TCategory[];
+  isPreviousRoute?: boolean | undefined;
 };
 
-export const Categories = ({ categories }: TCategoriesProps) => {
+export const Categories = ({ categories, isPreviousRoute }: TCategoriesProps) => {
   const { categoryOpenState, toggleOpenStatus } = useCategoryOpenState(INITIAL_OPEN_STATUS);
 
   const renderedCategories = categories.map(category => (
     <Fragment key={category.id}>
       <Category
+        isPreviousRoute={isPreviousRoute}
         isCategoryOpen={checkCurrentCategoryOpenStatus(
           categoryOpenState.isOpen,
           categoryOpenState.openedId,
