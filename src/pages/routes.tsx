@@ -19,7 +19,7 @@ export const routes = [
             element: <Layouts.Sidebar />,
             children: [
               {
-                path: ':subcategories',
+                path: ':subcategories?/:subcategories?',
                 element: <Pages.Subcatalog />,
               },
               {
