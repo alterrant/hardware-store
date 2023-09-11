@@ -4,7 +4,7 @@ import { Button } from 'components/common/button';
 import { getCountString } from './utils';
 import { DECREMENT, INCREMENT } from './config';
 
-import styles from './counter.module.css';
+import styles from './counter.module.scss';
 
 type TCounterProps = {
   increment: () => void;

@@ -3,7 +3,7 @@ import React, { forwardRef, type ReactNode } from 'react';
 
 import { type ButtonColors, type ButtonTypes, type ButtonVariants } from './config';
 
-import styles from './button.module.css';
+import styles from './button.module.scss';
 
 type TButtonProps = {
   btnClassName?: string;

@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { type Dispatch } from 'react';
 
-import styles from './page.module.css';
+import styles from './page.module.scss';
 
 type TPageProps = {
   handleClick: Dispatch<number>;

@@ -4,7 +4,7 @@ import { SidebarMenu } from 'components/sidebar/sidebar-menu';
 import { useSidebarToggle } from 'components/sidebar/sidebar-toggle';
 import { catalogCategories } from 'constants/catalog-categories';
 
-import styles from './sidebar-layout.module.css';
+import styles from './sidebar-layout.module.scss';
 
 export const SidebarLayout = () => {
   const { isSidebarOpen, closeSidebar, openSidebar } = useSidebarToggle();

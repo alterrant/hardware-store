@@ -1,7 +1,7 @@
 import { type TSubcategory } from 'types';
 import { Subcategory } from './subcategory';
 
-import styles from './subcategories.module.css';
+import styles from './subcategories.module.scss';
 
 type TSubcategoriesProps = {
   subcategories: TSubcategory[];

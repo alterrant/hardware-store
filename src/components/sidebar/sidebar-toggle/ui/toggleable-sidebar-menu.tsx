@@ -5,7 +5,7 @@ import { catalogCategories } from 'constants/catalog-categories';
 import { SidebarMenu } from '../../sidebar-menu';
 import { CloseSidebarBtn } from '../../sidebar-menu/close-sidebar-btn';
 
-import styles from './sidebar-toggle.module.css';
+import styles from './sidebar-toggle.module.scss';
 
 type TToggleableSidebarMenuProps = {
   isSidebarOpen: boolean;

@@ -6,7 +6,7 @@ import { type TCategory } from 'types';
 import { Subcategories } from '../../subcategories';
 import { getArrowClassName, getSubcategoriesClassName } from '../utils';
 
-import styles from './category.module.css';
+import styles from './category.module.scss';
 
 type TCategoriesProps = {
   category: TCategory;

@@ -2,7 +2,7 @@ import { AUTH_BUTTON_TEXTS } from 'constants/auth-button-texts';
 import { Button, ButtonColors, ButtonVariants } from 'components/common/button';
 import { ReactComponent as OutgoingMail } from '../assets/outgoing-mail.svg';
 
-import styles from './auth-button-section.module.css';
+import styles from './auth-button-section.module.scss';
 
 type TAuthButtonSectionProps = {
   isAuthorised?: boolean;

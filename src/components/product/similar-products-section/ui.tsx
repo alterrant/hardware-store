@@ -3,7 +3,7 @@ import { CatalogItemsContainer } from 'components/catalog-items';
 import { type TCatalogItem } from 'components/catalog-items/catalog-item';
 import { TITLE } from './config';
 
-import styles from './similar-products.module.css';
+import styles from './similar-products.module.scss';
 
 type TSimilarProductsProps = {
   catalog: TCatalogItem[];

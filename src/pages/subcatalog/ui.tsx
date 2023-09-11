@@ -8,7 +8,7 @@ import { SidebarToggle, type TSidebarToggleStatus } from 'components/sidebar/sid
 import { DEFAULT_TOTAL_PAGES, paginationConfig } from 'constants/pagination-config';
 import { DEFAULT_TITLE, productCards } from './config';
 
-import styles from './subcatalog.module.css';
+import styles from './subcatalog.module.scss';
 
 export const SubcatalogPage = () => {
   const { isSidebarOpen, closeSidebar, openSidebar } = useOutletContext<TSidebarToggleStatus>();

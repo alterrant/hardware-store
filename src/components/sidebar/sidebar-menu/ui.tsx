@@ -3,7 +3,7 @@ import { type ReactNode } from 'react';
 import { type TCategory } from 'types';
 import { Categories } from './categories';
 
-import styles from './sidebar-menu.module.css';
+import styles from './sidebar-menu.module.scss';
 
 type TNavigationProps = {
   categories: TCategory[];

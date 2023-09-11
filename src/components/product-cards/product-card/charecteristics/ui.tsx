@@ -1,6 +1,6 @@
 import { type TCharacteristic } from 'types/product';
 
-import styles from './product-card-characteristics.module.css';
+import styles from './product-card-characteristics.module.scss';
 
 type TProductCharacteristicsProps = {
   characteristics: TCharacteristic[];

@@ -4,7 +4,7 @@ import { PaginationController } from './pagination-controller';
 import { PageList } from './page-list';
 import { PreviousPaginationConfig, NextPaginationConfig } from './configs';
 
-import styles from './pagination.module.css';
+import styles from './pagination.module.scss';
 
 type TPaginationProps = {
   totalPages: number;

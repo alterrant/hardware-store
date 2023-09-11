@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { type ReactNode } from 'react';
 
-import styles from './product-info-layout.module.css';
+import styles from './product-info-layout.module.scss';
 
 type TProductInfoLayoutProps = {
   className?: string;

@@ -2,7 +2,7 @@ import { LogoAndAuthBtn } from './logo-and-auth-btn';
 import { SiteGuide } from './site-guide';
 import { siteGuideColumns } from './configs';
 
-import styles from './content-footer.module.css';
+import styles from './content-footer.module.scss';
 
 export const ContentFooter = () => (
   <div className={styles.wrapper}>

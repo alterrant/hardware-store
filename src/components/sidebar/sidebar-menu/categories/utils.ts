@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 
-import styles from './category/category.module.css';
+import styles from './category/category.module.scss';
 
 export const getSubcategoriesClassName = (isCategoryOpened: boolean) =>
   classNames(styles.subcategories, isCategoryOpened && styles.subcategoriesVisible);

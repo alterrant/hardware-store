@@ -4,7 +4,7 @@ import { ProductSections } from 'components/product';
 import { SidebarToggle, type TSidebarToggleStatus } from 'components/sidebar/sidebar-toggle';
 import { product } from './configs';
 
-import styles from './product-page.module.css';
+import styles from './product-page.module.scss';
 
 export const ProductPage = () => {
   const { isSidebarOpen, closeSidebar, openSidebar } = useOutletContext<TSidebarToggleStatus>();

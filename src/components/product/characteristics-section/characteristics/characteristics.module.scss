@@ -1,0 +1,25 @@
+@use "src/viewports";
+
+.prop {
+  color: var(--darkGrey);
+  font-weight: 400;
+}
+.value {
+  color: var(--black);
+  font-weight: 700;
+}
+.divider {
+  display: none;
+  width: 100%;
+  height: 1px;
+  background-color: var(--lightGrey);
+}
+@media screen and (max-width: viewports.$small) {
+  .value,
+  .prop {
+    padding: 0 20px;
+  }
+  .divider {
+    display: block;
+  }
+}

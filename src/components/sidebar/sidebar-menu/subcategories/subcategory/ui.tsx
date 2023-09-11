@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { NavLink } from 'react-router-dom';
 
-import styles from './subcategory.module.css';
+import styles from './subcategory.module.scss';
 
 type TSubcategoryProps = {
   subcategoryName: string;

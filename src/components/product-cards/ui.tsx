@@ -4,7 +4,7 @@ import { Button, ButtonColors, ButtonVariants } from 'components/common/button';
 import { type TProductCardInfo, ProductCard } from './product-card';
 import { BOOKING_AVAILABLE } from './configs';
 
-import styles from './product-cards.module.css';
+import styles from './product-cards.module.scss';
 
 type TProductCardsProps = {
   productCardsInfo: TProductCardInfo[];

@@ -6,7 +6,7 @@ import { INITIAL_OPEN_STATUS } from './config';
 import { useCategoryOpenState } from './hooks';
 import { checkCurrentCategoryOpenStatus } from './utils';
 
-import styles from './categories.module.css';
+import styles from './categories.module.scss';
 
 type TCategoriesProps = {
   categories: TCategory[];

@@ -1,0 +1,24 @@
+@use 'src/viewports';
+
+.wrapper {
+  padding: 40px 60px;
+  border-radius: 40px;
+  background: var(--white);
+  box-shadow: 0 4px 15px 0 rgba(12, 7, 50, 0.25);
+
+  @media screen and (max-width: viewports.$medium) {
+    padding: 40px;
+
+    @media screen and (max-width: viewports.$small) {
+      &:nth-child(2) {
+        padding: 40px 20px 40px 20px;
+      }
+      &:nth-child(3) {
+        padding: 40px 0;
+      }
+      &:nth-child(4) {
+        padding: 40px 48px 40px 48px;
+      }
+    }
+  }
+}

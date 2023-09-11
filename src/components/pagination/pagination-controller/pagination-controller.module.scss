@@ -1,0 +1,27 @@
+@use "src/viewports";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  img {
+    max-width: initial;
+  }
+}
+.fixedNavigation:hover {
+  background-color: var(--lightGrey);
+  border-radius: 50%;
+}
+.ascending {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: viewports.$small) {
+  .wrapper {
+    gap: 17px;
+  }
+  .fixedNavigation {
+    padding: 8px;
+  }
+}
