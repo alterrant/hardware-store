@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/hardware-store/static/css/main.dd753cd3.css",
+    "main.js": "/hardware-store/static/js/main.3bd04df0.js",
+    "static/media/Rectangle 33.svg": "/hardware-store/static/media/Rectangle 33.f0558c87ec3bf4aa27d9bdfb154a482c.svg",
+    "static/media/Rectangle 31.svg": "/hardware-store/static/media/Rectangle 31.0c352ea82fe686b8ef9bb02143a6f0cd.svg",
+    "static/media/Rectangle 57.png": "/hardware-store/static/media/Rectangle 57.117a7f6765e09582c110.png",
+    "static/media/Rectangle 60.png": "/hardware-store/static/media/Rectangle 60.160850ccfc043a507877.png",
+    "static/media/Rectangle 59.png": "/hardware-store/static/media/Rectangle 59.c4fcd34a72fc144794b1.png",
+    "static/media/Rectangle 62.png": "/hardware-store/static/media/Rectangle 62.b61e5168d65872d9a5cb.png",
+    "static/media/Rectangle 56.png": "/hardware-store/static/media/Rectangle 56.e053c83af5de9af85776.png",
+    "static/media/image 1.png": "/hardware-store/static/media/image 1.bcfada1e3f38f085532b.png",
+    "static/media/Rectangle 41.png": "/hardware-store/static/media/Rectangle 41.cab8443c9a037abd90ad.png",
+    "static/media/Rectangle 29.png": "/hardware-store/static/media/Rectangle 29.72c8cae0fb3147c039ed.png",
+    "static/media/Rectangle 43.png": "/hardware-store/static/media/Rectangle 43.30101cdd2e1b5c978e6d.png",
+    "static/media/Rectangle 42.png": "/hardware-store/static/media/Rectangle 42.b7acb5dfcab18fc2e6f1.png",
+    "static/media/Rectangle 61.png": "/hardware-store/static/media/Rectangle 61.132d93e5596e18e84626.png",
+    "static/media/Rectangle 58.png": "/hardware-store/static/media/Rectangle 58.351bdc2f8d3b8fe9fa70.png",
+    "static/media/Rectangle 55.png": "/hardware-store/static/media/Rectangle 55.29698c87dddd8e3b3354.png",
+    "static/media/instagram.svg": "/hardware-store/static/media/instagram.f62856f9f9d33e42b009dc5c89386b58.svg",
+    "static/media/vk.svg": "/hardware-store/static/media/vk.afa82e4731233d82553157ba6d9c8b7e.svg",
+    "static/media/telegram.svg": "/hardware-store/static/media/telegram.79a89fff8a1d1748bc12ab1f28dbb646.svg",
+    "static/media/mdi_hamburger-menu.svg": "/hardware-store/static/media/mdi_hamburger-menu.d8e2d7a6def9ef50420c148a4614f593.svg",
+    "index.html": "/hardware-store/index.html",
+    "static/media/outgoing-mail.svg": "/hardware-store/static/media/outgoing-mail.78067d2cd515f89920839fa356e2591f.svg",
+    "static/media/gg_shopping-bag.svg": "/hardware-store/static/media/gg_shopping-bag.8afb9b150478b787e5faf868385ee2ff.svg",
+    "static/media/hamb.svg": "/hardware-store/static/media/hamb.b75e1c47206de22327e0f9b1af88f9e0.svg",
+    "static/media/left-arrow.svg": "/hardware-store/static/media/left-arrow.0dce3cb48ea01892c92dcd9d8d88ae74.svg",
+    "static/media/right-arrow.svg": "/hardware-store/static/media/right-arrow.25476525aecfccbeef075ec7e09ad5cd.svg",
+    "static/media/arrow-down.svg": "/hardware-store/static/media/arrow-down.e7b7af21578b4133f8ad8c0da0345852.svg",
+    "static/media/short-right-arrow.svg": "/hardware-store/static/media/short-right-arrow.e11b68ff1d923ba054dab85847478127.svg",
+    "main.dd753cd3.css.map": "/hardware-store/static/css/main.dd753cd3.css.map",
+    "main.3bd04df0.js.map": "/hardware-store/static/js/main.3bd04df0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd753cd3.css",
+    "static/js/main.3bd04df0.js"
+  ]
+}
