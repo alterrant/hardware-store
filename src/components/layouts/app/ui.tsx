@@ -12,9 +12,11 @@ export const AppLayout = () => (
     </header>
 
     <div className={styles.breadcrumbs}>breadcrumbs</div>
-
-    <Outlet />
-
-    <Footer />
+    <div className={styles.contentContainer}>
+      <Outlet />
+    </div>
+    <div className={styles.footer}>
+      <Footer />
+    </div>
   </>
 );

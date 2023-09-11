@@ -10,3 +10,13 @@
   display: flex;
   gap: 30px;
 }
+@media screen and (max-width: 360px) {
+  .wrapper,
+  .contacts {
+    flex-direction: column;
+    row-gap: 18px;
+  }
+  .wrapper {
+    margin-bottom: 20px;
+  }
+}

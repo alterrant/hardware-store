@@ -16,3 +16,13 @@
 .addToCartBtn:active {
   background: var(--red);
 }
+
+@media screen and (max-width: 360px) {
+  .wrapper {
+    flex-wrap: nowrap;
+  }
+  .addToCartBtn {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+}
