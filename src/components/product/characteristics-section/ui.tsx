@@ -1,9 +1,9 @@
 import { ProductInfoLayout } from 'components/layouts/product-info';
-import { Button } from 'components/button';
+import { Button } from 'components/common/button';
 import { MAIN_CHARACTERISTICS, MORE_CHARACTERISTICS } from './config';
 import { ProductCharacteristics } from './characteristics';
 
-import styles from './characteristics-section.module.css';
+import styles from './characteristics-section.module.scss';
 
 type TCharacteristicsProps = {
   characteristics: { id: number; prop: string; value: string }[];

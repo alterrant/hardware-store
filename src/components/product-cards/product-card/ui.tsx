@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { ProductCardCharacteristics } from './charecteristics';
 import { type TProductCardInfo } from './types';
 
-import styles from './product-card.module.css';
+import styles from './product-card.module.scss';
 
 type TProductCardProps = Omit<TProductCardInfo, 'id' | 'isAvailable'> & {
   children: ReactNode;

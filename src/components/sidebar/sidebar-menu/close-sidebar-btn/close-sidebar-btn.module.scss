@@ -1,0 +1,22 @@
+@use "src/viewports";
+
+.closeNavBtn {
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    transform: rotate(90deg);
+  }
+
+  @media screen and (max-width: viewports.$medium) {
+    padding: 0 16px;
+  }
+  @media screen and (max-width: viewports.$small) {
+    padding: 0 24px;
+  }
+}
+
+
+

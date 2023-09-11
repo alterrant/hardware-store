@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import styles from './characteristics.module.css';
+import styles from './characteristics.module.scss';
 
 type TProductCharacteristicsProps = {
   characteristics: { id: number; prop: string; value: string }[];

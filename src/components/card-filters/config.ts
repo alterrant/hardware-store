@@ -1,4 +1,4 @@
-import { ButtonColors, ButtonVariants } from 'components/button';
+import { ButtonColors, ButtonVariants } from 'components/common/button';
 
 export const filterConfig = {
   btnText: 'Фильтры',

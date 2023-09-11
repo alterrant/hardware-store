@@ -1,7 +1,7 @@
 import { SIGN_IN } from './configs';
-import { Button, ButtonColors, ButtonVariants } from '../../button';
+import { Button, ButtonColors, ButtonVariants } from '../../common/button';
 
-import styles from './sign-in-btn.module.css';
+import styles from './sign-in-btn.module.scss';
 
 export const SignInBtn = () => (
   <Button

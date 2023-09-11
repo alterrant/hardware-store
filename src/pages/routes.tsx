@@ -1,4 +1,4 @@
-import { AppLayout } from 'components/layouts/app';
+import { Layouts } from 'components/layouts';
 import { PrivateRoute } from 'components/private-route';
 import { Pages } from '.';
 
@@ -8,19 +8,25 @@ export const routes = [
     children: [
       {
         path: '/',
-        element: <AppLayout />,
+        element: <Layouts.App />,
         children: [
           {
             path: 'catalog',
             element: <Pages.Catalog />,
           },
           {
-            path: 'catalog/:subcategories',
-            element: <Pages.Subcatalog />,
-          },
-          {
-            path: '*',
-            element: <Pages.Product />,
+            path: 'catalog',
+            element: <Layouts.Sidebar />,
+            children: [
+              {
+                path: ':subcategories/:subcategories?',
+                element: <Pages.Subcatalog />,
+              },
+              {
+                path: '*',
+                element: <Pages.Product />,
+              },
+            ],
           },
         ],
       },
@@ -28,30 +34,33 @@ export const routes = [
   },
 ];
 
-// вариант с outlet в ProductsLayout
 /* export const routes = [
   {
     element: <PrivateRoute />,
     children: [
       {
         path: '/',
-        element: <AppLayout />,
         children: [
           {
             path: 'catalog',
-            element: <CatalogPage />,
-          },
-          {
-            path: 'catalog/:subcategories',
-            element: <ProductsLayout />,
+            element: <Layouts.App />,
             children: [
               {
-                path: '*',
-                element: <SubcatalogPage />,
+                path: 'allCategories',
+                element: <Pages.Catalog />,
               },
-               {
-                path: 'id',
-                element: <ProductPage />,
+              {
+                path: ':subcategories',
+                element: <Layouts.Sidebar />,
+                children: [
+                  {
+                    element: <Pages.Subcatalog />,
+                  },
+                  {
+                    path: '*',
+                    element: <Pages.Product />,
+                  },
+                ],
               },
             ],
           },

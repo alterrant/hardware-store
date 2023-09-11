@@ -1,11 +1,11 @@
 import { ContactFooter } from './contact-footer';
 import { ContentFooter } from './content-footer';
 
-import styles from './footer.module.css';
+import styles from './footer.module.scss';
 
 export const Footer = () => (
-  <footer className={styles.wrapper}>
+  <div className={styles.wrapper}>
     <ContentFooter />
     <ContactFooter />
-  </footer>
+  </div>
 );

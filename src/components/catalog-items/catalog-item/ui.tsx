@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 import { type TCatalogItem } from './types';
 
-import styles from './catalog-item.module.css';
+import styles from './catalog-item.module.scss';
 
 type TCatalogItemProps = Omit<TCatalogItem, 'id'>;
 

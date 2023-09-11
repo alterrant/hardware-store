@@ -1,0 +1,32 @@
+@use "src/viewports";
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.addToCartBtn {
+  max-width: 170px;
+  height: auto;
+  min-height: 40px;
+
+  &:hover {
+    background: linear-gradient(var(--red), rgba(177, 2, 7, .3));
+    color: var(--lightGrey);
+  }
+
+  &:active {
+    background: var(--red);
+  }
+}
+
+@media screen and (max-width: viewports.$small) {
+  .wrapper {
+    flex-wrap: nowrap;
+  }
+  .addToCartBtn {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+}

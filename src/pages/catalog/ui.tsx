@@ -3,7 +3,7 @@ import { CatalogItemsContainer } from 'components/catalog-items';
 import { DEFAULT_TOTAL_PAGES, paginationConfig } from 'constants/pagination-config';
 import { catalog, TITLE } from './config';
 
-import styles from './catalog.module.css';
+import styles from './catalog-page.module.scss';
 
 export const CatalogPage = () => (
   <main className={styles.wrapper}>

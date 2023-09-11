@@ -1,0 +1,28 @@
+@use 'src/viewports';
+
+.wrapper {
+  width: 100%;
+  max-width: 265px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--darkGrey);
+}
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 100%;
+}
+@media screen and (max-width: viewports.$small) {
+  .wrapper,
+  .paragraphs {
+    align-items: center;
+  }
+}

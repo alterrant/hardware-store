@@ -1,6 +1,6 @@
 import { SiteGuideColumn, type TSiteGuideColumnConfig } from './site-guide-column';
 
-import styles from './site-guide.module.css';
+import styles from './site-guide.module.scss';
 
 type TSiteGuideProps = {
   siteGuideColumns: TSiteGuideColumnConfig[];

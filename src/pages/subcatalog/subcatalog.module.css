@@ -1,7 +1,0 @@
-.products {
-  /* 20(nav-wrap) + 10(category-wrap) */
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 40px;
-}

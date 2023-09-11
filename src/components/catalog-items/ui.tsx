@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { CatalogItem, type TCatalogItem } from './catalog-item';
 
-import styles from './catalog-items.module.css';
+import styles from './catalog-items.module.scss';
 
 type TCatalogItemsProps = {
   catalog: TCatalogItem[];

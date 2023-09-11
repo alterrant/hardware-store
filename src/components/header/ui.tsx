@@ -3,7 +3,7 @@ import { NavBar, navBarConfig } from './nav-bar';
 import { SignInBtn } from './sign-in-btn';
 import burgerMenu from './assets/hamb.svg';
 
-import styles from './header.module.css';
+import styles from './header.module.scss';
 
 type THeaderProps = {
   isAuthorized?: boolean;

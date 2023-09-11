@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 1140px;
+  margin: 20px auto 120px auto;
+  display: flex;
+  column-gap: 20px;
+
+  & > *:first-child {
+    flex-shrink: 0;
+
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
+  }
+}

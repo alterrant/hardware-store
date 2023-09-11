@@ -1,1 +1,1 @@
-export const LOGO_LINK = '/';
+export const LOGO_LINK = '/catalog';

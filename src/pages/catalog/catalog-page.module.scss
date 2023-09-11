@@ -1,0 +1,14 @@
+@use "src/viewports";
+
+.wrapper {
+  max-width: viewports.$large;
+  margin: 40px auto 120px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}

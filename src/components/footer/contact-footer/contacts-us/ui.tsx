@@ -1,6 +1,6 @@
 import { Contact } from './contact';
 
-import styles from './contact-us.module.css';
+import styles from './contact-us.module.scss';
 
 type TContactUsProps = {
   socialMediaContacts: TContact[];

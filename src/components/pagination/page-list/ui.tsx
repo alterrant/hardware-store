@@ -3,7 +3,7 @@ import { type Dispatch } from 'react';
 import { checkIsActive, getDisplayedPageNumbers, getDisplayedPages } from './utils';
 import { Page } from './page';
 
-import styles from './page-list.module.css';
+import styles from './page-list.module.scss';
 
 type TPageListProps = {
   totalPages: number;

@@ -2,7 +2,7 @@ import { socialMediaContacts, CONTACTS_LABEL, COPYRIGHT } from './configs';
 import { ContactUs } from './contacts-us';
 import { Copyright } from './copyright';
 
-import styles from './contact-footer.module.css';
+import styles from './contact-footer.module.scss';
 
 export const ContactFooter = () => (
   <div className={styles.wrapper}>

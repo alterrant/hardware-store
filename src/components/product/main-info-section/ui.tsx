@@ -2,7 +2,7 @@ import { ProductInfoLayout } from 'components/layouts/product-info';
 import { SKU } from './config';
 import { ProductActions } from '../product-actions';
 
-import styles from './main-info.module.css';
+import styles from './main-info.module.scss';
 
 type TMainInfoSectionProps = {
   id: number;
