@@ -12,22 +12,19 @@ type TCategoriesProps = {
   category: TCategory;
   isCategoryOpen: boolean;
   toggleOpenStatus: (categoryId: number) => void;
-  isPreviousRoute?: boolean | undefined;
 };
 
-export const Category = ({
-  category,
-  isCategoryOpen,
-  toggleOpenStatus,
-  isPreviousRoute,
-}: TCategoriesProps) => {
+export const Category = ({ category, isCategoryOpen, toggleOpenStatus }: TCategoriesProps) => {
   const subcategoriesClassName = getSubcategoriesClassName(isCategoryOpen);
   const arrowClassName = getArrowClassName(isCategoryOpen);
+
+  // const link = `catalog/${category.categoryName}`;
+  const link = `${category.categoryName}`;
 
   return (
     <>
       <NavLink
-        to={isPreviousRoute ? `../${category.categoryName}` : category.categoryName}
+        to={link}
         end
         className={({ isActive }) => classNames(styles.wrapper, isActive && styles.active)}
         onClick={() => {
@@ -40,7 +37,6 @@ export const Category = ({
       </NavLink>
       <div className={subcategoriesClassName}>
         <Subcategories
-          isPreviousRoute={isPreviousRoute}
           categoryName={category.categoryName}
           subcategories={category.subcategories}
         />

@@ -8,12 +8,11 @@ import styles from './sidebar-menu.module.css';
 type TNavigationProps = {
   categories: TCategory[];
   closeSidebarBtn?: ReactNode;
-  isPreviousRoute?: boolean;
 };
 
-export const SidebarMenu = ({ categories, closeSidebarBtn, isPreviousRoute }: TNavigationProps) => (
+export const SidebarMenu = ({ categories, closeSidebarBtn }: TNavigationProps) => (
   <nav className={styles.wrapper}>
     {closeSidebarBtn}
-    <Categories isPreviousRoute={isPreviousRoute} categories={categories} />
+    <Categories categories={categories} />
   </nav>
 );

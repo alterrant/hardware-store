@@ -19,7 +19,7 @@ export const routes = [
             element: <Layouts.Sidebar />,
             children: [
               {
-                path: ':subcategories?/:subcategories?',
+                path: ':subcategories/:subcategories?',
                 element: <Pages.Subcatalog />,
               },
               {
@@ -33,3 +33,39 @@ export const routes = [
     ],
   },
 ];
+
+/* export const routes = [
+  {
+    element: <PrivateRoute />,
+    children: [
+      {
+        path: '/',
+        children: [
+          {
+            path: 'catalog',
+            element: <Layouts.App />,
+            children: [
+              {
+                path: 'allCategories',
+                element: <Pages.Catalog />,
+              },
+              {
+                path: ':subcategories',
+                element: <Layouts.Sidebar />,
+                children: [
+                  {
+                    element: <Pages.Subcatalog />,
+                  },
+                  {
+                    path: '*',
+                    element: <Pages.Product />,
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+]; */

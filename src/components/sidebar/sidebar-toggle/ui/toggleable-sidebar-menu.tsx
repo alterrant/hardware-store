@@ -24,7 +24,6 @@ export const ToggleableSidebarMenu = ({
   return (
     <div className={sidebarMenuClassName}>
       <SidebarMenu
-        isPreviousRoute
         closeSidebarBtn={<CloseSidebarBtn handleCloseSideBar={closeSidebar} />}
         categories={catalogCategories}
       />
