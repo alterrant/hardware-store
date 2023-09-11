@@ -5,10 +5,8 @@ import { Header } from 'components/header';
 
 import styles from './app-layout.module.css';
 
-// type TAppLayoutProps = {};
-
 export const AppLayout = () => (
-  <div>
+  <>
     <header className={styles.header}>
       <Header />
     </header>
@@ -18,5 +16,5 @@ export const AppLayout = () => (
     <Outlet />
 
     <Footer />
-  </div>
+  </>
 );

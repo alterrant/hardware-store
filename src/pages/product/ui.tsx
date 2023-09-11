@@ -1,9 +1,10 @@
 import { ProductSections } from 'components/product';
-import { ProductsLayout } from 'components/layouts/products';
 import { product } from './configs';
 
+import styles from './product-page.module.css';
+
 export const ProductPage = () => (
-  <ProductsLayout>
+  <main className={styles.wrapper}>
     <ProductSections.MainInfo
       id={product.id}
       category={product.category}
@@ -14,5 +15,5 @@ export const ProductPage = () => (
     />
     <ProductSections.Characteristics characteristics={product.characteristics} />
     <ProductSections.SimilarProducts catalog={product.similarProducts} />
-  </ProductsLayout>
+  </main>
 );
